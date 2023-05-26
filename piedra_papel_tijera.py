@@ -8,7 +8,6 @@ def elegir_opcion():
 
   if not usuario_opcion in opciones:
     print('Esa opcion no es valida')
-    # continue
     return None, None
 
   pc_opcion = random.choice(opciones)
